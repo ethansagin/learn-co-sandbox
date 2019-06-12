@@ -10,5 +10,7 @@ class ApplicationController < Sinatra::Base
   get "/" do
     erb :welcome
   end
+  
+  #helpers, logged_in? current_user
 
 end

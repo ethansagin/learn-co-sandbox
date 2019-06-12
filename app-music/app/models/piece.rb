@@ -1,3 +1,4 @@
 class Piece<ActiveRecord::Base
-  belongs_to :folder
+  has_many :folders_pieces
+  has_many :folders, through: :folders_pieces
 end
