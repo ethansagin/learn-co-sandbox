@@ -8,7 +8,6 @@ class CreatePieces < ActiveRecord::Migration
       t.string :librettist
       t.string :translation
       t.string :publisher
-      t.string :in_use?
     end
   end
 end
