@@ -1,3 +1,0 @@
-class PiecesController<ApplicationController
-  
-end
